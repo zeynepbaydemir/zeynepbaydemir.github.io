@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;");
+
+.body{
+    height: 2000px;
+}
+.navbar {
+    background-color: #00b712;
+    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+}
+.d-inline-block{
+    width: 30px;
+    height: 30px;
+}
+
+/*slider*/
+
+.carousel-item{
+    height: 32rem;
+    background: #000;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.container-slider{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+
+/*Card*/
+.container-card{
+    background-image: url(/images/background.jpeg);
+    background-size: 1000px;
+}
+.card:hover{
+    background-color: #5aff15;
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+ 
+.product-card{
+	background: #fff;
+	box-shadow: 0px 0px 2px #ddd;
+	padding: 20px;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+.product-card:hover{
+	box-shadow: 0px 0px 5px #ddd
+}
+
+.product-card h4{
+margin-top: 10px;
+}
+
+.product-card p{
+color: #25ac8e
+}
+
+.product-card span{
+font-size: 14px;
+}
+
+.col-xs-4{
+	display: none
+}
+
+/*Çeşitler*/
+
+
+.product-card{
+    background-color: #70531e;
+    background-image: linear-gradient(315deg, #00ff55 0%, #f5f7fa 100%)
+}
+
+/*Quiz*/
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    overflow: hidden;
+    width: 1750px;
+    max-width: 100%;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #00ff55 0%, #f5f7fa 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 50vh;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+#submit{
+    background-color: rgb(29, 202, 23);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    padding: 1.3rem;
+}
+#submit:hover{
+    background-color: #197528;
+}
+
+
+
+
+/*zamanlayıcı*/
+.timer{
+    background-image: url(/images/snow.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
+
+/*footer*/
+footer {
+    background-color: #00b712;
+    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+   }
